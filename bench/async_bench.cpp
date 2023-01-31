@@ -130,7 +130,7 @@ int main(int argc, char *argv[])
         spdlog::info("*********************************");
         spdlog::info("Queue Overflow Policy: overrun");
         spdlog::info("*********************************");
-        // do same test but discard oldest if queue is full instead of blocking
+        // do the same test but discard oldest if queue is full instead of blocking
         filename = "logs/basic_async-overrun.log";
         for (int i = 0; i < iters; i++)
         {
